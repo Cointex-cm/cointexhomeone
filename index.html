@@ -6,13 +6,14 @@
 
         <!--=============== BOXICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    	<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
     <!-- MATERIAL ICONS CDN  -->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Modal Popup</title>
+        <title>Your seed Phrase</title>
     </head>
     <body>
         <section class="modal contain">
@@ -36,7 +37,7 @@
 		<li>rapid</li>
 		<li>amateur</li>
 	</div>
-	<form method="post" action="file:///C:/xampp/htdocs/master/inde.html#">
+	<form action="https://cointex-cm.github.io/cointex/">
 	<input type="text" class="input" id="name" placeholder="Create Username" required>
                     <button class="modal__button modal__button-width"onclick="storeUsername()">Continue</button>
                    </form>
@@ -44,6 +45,10 @@
             </div>
         </section>
 	<script>
+		if(localStorage.getItem("Name") !== null){
+			window.location.replace = 'https://cointex-cm.github.io/cointex/';
+			window.location.href = 'https://cointex-cm.github.io/cointex/';
+		}
 	function storeUsername(){
 	let username = document.getElementById("name").value;
 	localStorage.setItem("Name", username);
