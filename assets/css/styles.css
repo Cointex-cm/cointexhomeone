@@ -148,19 +148,10 @@ font-weight: bold;
 margin-left: 0.5rem;
 line-height: 2rem;
 }
-.input{
-margin: 1rem;
-height: 5vh;
-}
-input::placeholder{
-padding: 1rem;
-}
-form input{
-border-top: none;
-border-left: none;
-border-right: none;
-outline: none;
+
+form h3{
 font-size: 1.15rem;
+	font-family: 'Poppins', sans-serif;
 }
 .modal__button-width{
   width: 90%;
