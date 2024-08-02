@@ -60,6 +60,7 @@ body{
 .modal__container{
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
   background-color: transparent;
   min-height: 90vh;
