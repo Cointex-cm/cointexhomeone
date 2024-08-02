@@ -152,6 +152,7 @@ line-height: 2rem;
 form h3{
 font-size: 1.15rem;
 	font-family: 'Poppins', sans-serif;
+	margin-bottom: 2rem;
 }
 .modal__button-width{
   width: 90%;
