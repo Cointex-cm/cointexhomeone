@@ -59,7 +59,6 @@ body{
 
 .modal__container{
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   background-color: transparent;
@@ -151,8 +150,8 @@ line-height: 2rem;
 
 form h3{
 font-size: 1.15rem;
-	font-family: 'Poppins', sans-serif;
-	margin-bottom: 2rem;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 2rem;
 }
 .modal__button-width{
   width: 90%;
